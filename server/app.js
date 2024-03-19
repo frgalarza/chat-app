@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const connection = require('./db_conn')
 const { UserModel } = require('./Models/UserModel')
 const { Server } = require('socket.io')
 const { createServer } = require('http')
